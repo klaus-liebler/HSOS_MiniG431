@@ -9906,6 +9906,16 @@
 		)
 		(uuid "482a929c-4dbd-41c9-88d1-ca0b93947ee1")
 	)
+	(label "M1_BI"
+		(at 334.01 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4931165a-6c6d-46f3-982c-4a115c147697")
+	)
 	(label "CAN1_TX"
 		(at 95.25 107.95 180)
 		(effects
@@ -10055,6 +10065,16 @@
 			(justify right bottom)
 		)
 		(uuid "63547a95-1c55-4ca0-acca-b8713cae0210")
+	)
+	(label "STM32_RESET"
+		(at 334.01 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66f7bf86-9e54-4ef2-8b43-9414581f58ee")
 	)
 	(label "M2_FI"
 		(at 386.08 97.79 180)
@@ -10645,6 +10665,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb48033d-1347-411b-b870-3af82647f7e6")
+	)
+	(label "M1_FI"
+		(at 334.01 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbc5ad8e-c797-476c-8bc1-3259ee7491db")
 	)
 	(label "FB"
 		(at 190.5 30.48 0)
@@ -11277,6 +11307,84 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "008a1706-f539-4c60-88f6-576daba7df1c")
+		(property "Reference" "#PWR014"
+			(at 327.66 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "218c9b81-1332-4f1d-8cf4-129bf26569ea")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR014")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -12839,6 +12947,83 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 334.01 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "1870ef4b-80e1-481d-9c30-ec89d9c474f7")
+		(property "Reference" "#PWR0174"
+			(at 334.01 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 328.93 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 334.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92a2ff4d-489d-4cae-929d-b5914361e260")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -14733,6 +14918,83 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3c289f43-beb0-415d-be48-12d8bf80faf8")
+		(property "Reference" "#PWR0175"
+			(at 334.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1322c457-4168-4ff0-a5d2-026e222e0f4d")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -23677,83 +23939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VM")
-		(at 334.01 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "b8a216b5-c639-459f-861c-b2c7a252b5fe")
-		(property "Reference" "#PWR0164"
-			(at 334.01 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VM"
-			(at 334.01 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VM\""
-			(at 334.01 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a63e6ff3-39eb-4964-ab26-1e5d8bb7822b")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 92.71 90)
 		(unit 1)
@@ -26215,6 +26400,84 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da794cf6-a3bf-4546-afa5-d4c2b15a7e28")
+		(property "Reference" "#PWR013"
+			(at 327.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c3f81c3-1a8e-4cd3-bdf2-2d9a5f494710")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
