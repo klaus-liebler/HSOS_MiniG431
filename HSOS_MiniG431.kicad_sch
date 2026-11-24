@@ -8465,6 +8465,12 @@
 		(uuid "1891ad97-0c9e-4cbf-bf3b-252d256e06a8")
 	)
 	(junction
+		(at 101.6 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b30c7b1-2238-43c9-9a8b-487ed2fe5979")
+	)
+	(junction
 		(at 142.24 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8561,12 +8567,6 @@
 		(uuid "4f7a4fb1-93f3-43b1-9e68-dff33d001474")
 	)
 	(junction
-		(at 156.21 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5597e3ff-13fe-49b0-9823-fde2ab9b1e89")
-	)
-	(junction
 		(at 21.59 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8619,6 +8619,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c467969-47b9-4041-912a-0a63f4bd4ce9")
+	)
+	(junction
+		(at 156.21 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d07110f-499b-4a66-9fb8-31b86a54b79d")
 	)
 	(junction
 		(at 104.14 163.83)
@@ -9208,6 +9214,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 25.4) (xy 156.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cc18a7-e6f4-432d-903f-5779980b4890")
+	)
+	(wire
+		(pts
 			(xy 163.83 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -9288,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 39.37) (xy 156.21 34.29)
+			(xy 153.67 39.37) (xy 153.67 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9368,6 +9384,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 219.71) (xy 101.6 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c77ef5-8d60-49a3-98e1-30e2ac931c72")
+	)
+	(wire
+		(pts
 			(xy 16.51 46.99) (xy 25.4 46.99)
 		)
 		(stroke
@@ -9418,7 +9444,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 39.37) (xy 161.29 39.37)
+			(xy 153.67 39.37) (xy 161.29 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9588,7 +9614,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 26.67) (xy 156.21 25.4)
+			(xy 153.67 26.67) (xy 153.67 25.4)
 		)
 		(stroke
 			(width 0)
@@ -9965,16 +9991,6 @@
 			(justify right bottom)
 		)
 		(uuid "4d402f82-7bec-4623-a983-54d666008814")
-	)
-	(label "VM_SENSE"
-		(at 107 208.19 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f7b4342-79a8-4955-a39a-bb67b8b05517")
 	)
 	(label "PC14"
 		(at 334.01 66.04 180)
@@ -10367,7 +10383,7 @@
 		(uuid "b271eaaa-d5d4-4dcf-9b4b-c35819de33cf")
 	)
 	(label "VM_SENSE"
-		(at 97 215.81 270)
+		(at 99.06 219.71 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12787,7 +12803,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97 212 0)
+		(at 101.6 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12797,7 +12813,7 @@
 		(dnp no)
 		(uuid "15059b01-eaa7-471b-bdf7-a0a977edf08c")
 		(property "Reference" "R50"
-			(at 100.81 210.73 0)
+			(at 105.41 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12807,7 +12823,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 100.81 213.27 0)
+			(at 105.41 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12817,7 +12833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 97 212 0)
+			(at 101.6 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,7 +12844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97 212 0)
+			(at 101.6 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12839,7 +12855,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97 212 0)
+			(at 101.6 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12850,7 +12866,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 97 212 0)
+			(at 101.6 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13185,7 +13201,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C148198"
+		(property "LCSC" "C176917"
 			(at -15.24 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -13389,6 +13405,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25879"
+			(at 195 257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd63b9e5-066e-47f6-ad7c-5e662473514e")
 		)
@@ -13476,85 +13503,6 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107 212 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "241261f6-3eb2-40f1-8595-05db559216b6")
-		(property "Reference" "R51"
-			(at 110.81 210.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 110.81 213.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107 212 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107 212 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107 212 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d6c2d67-3995-4e1f-8f3a-1aef705c26f0")
-		)
-		(pin "2"
-			(uuid "834fafdf-bf10-4572-86f1-dcaea42e5ed0")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -13711,6 +13659,118 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "286e7e95-d0d9-48a4-91e0-eed1433a3f05")
+		(property "Reference" "C33"
+			(at 156.21 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "u1/50"
+			(at 157.48 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 152.7048 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGE"
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "831d4cbe-0d6e-4313-88a4-23c8a2f06c69")
+		)
+		(pin "2"
+			(uuid "ec535354-5551-4542-9037-fb04246daaea")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -15064,6 +15124,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22787"
+			(at 259.08 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00464dfc-f5e0-4c14-b718-423525b45d49")
 		)
@@ -15379,7 +15450,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C148198"
+		(property "LCSC" "C176917"
 			(at 62 268 0)
 			(hide yes)
 			(show_name no)
@@ -15744,6 +15815,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VM")
+		(at 205.74 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "492c61d3-fb4c-484c-9556-9e5923fab401")
+		(property "Reference" "#PWR0164"
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VM"
+			(at 205.74 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VM\""
+			(at 205.74 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8834df6-7dac-486e-930c-7b08bffa1ce2")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 25.4 38.1 90)
 		(unit 1)
@@ -15843,7 +15991,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB1"
+		(property "Value" "RGB3"
 			(at 161.29 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15879,6 +16027,17 @@
 		)
 		(property "Description" ""
 			(at 159.258 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201 "
+			(at 157.48 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +16244,7 @@
 				)
 			)
 		)
-		(property "Value" "OLED 0.96"
+		(property "Value" "I2C1"
 			(at 118.81 261.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16416,7 +16575,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB1"
+		(property "Value" "RGB2"
 			(at 146.05 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16452,6 +16611,17 @@
 		)
 		(property "Description" ""
 			(at 144.018 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201 "
+			(at 142.24 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,6 +16892,118 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 229.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b5c50f0-e51d-4b97-8d0b-a2f461fa71f5")
+		(property "Reference" "C32"
+			(at 190.5 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "u1/50"
+			(at 191.77 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.9948 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGE"
+			(at 187.96 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 187.96 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33f50632-7230-4ea8-95ae-3d135ccf45ce")
+		)
+		(pin "2"
+			(uuid "db2fbaac-ad98-4de2-9f73-0d910bdc49be")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -17204,83 +17486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VM")
-		(at 204.31 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "68d4a1bc-8160-4463-877d-c3a6af8a6b04")
-		(property "Reference" "#PWR0133"
-			(at 204.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VM"
-			(at 204.31 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.31 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.31 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VM\""
-			(at 204.31 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2bf0981-96b6-4c01-90ae-2acb97e3adcf")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 155 215.81 0)
 		(unit 1)
@@ -17500,7 +17705,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C148198"
+		(property "LCSC" "C176917"
 			(at -10.16 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -18016,7 +18221,7 @@
 	)
 	(symbol
 		(lib_id "power:VM")
-		(at 97 208.19 0)
+		(at 101.6 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18026,7 +18231,7 @@
 		(dnp no)
 		(uuid "729c8bc9-99e3-4e9d-83dc-2411e0ec64f0")
 		(property "Reference" "#PWR0120"
-			(at 97 212 0)
+			(at 101.6 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18037,7 +18242,7 @@
 			)
 		)
 		(property "Value" "VM"
-			(at 97 203.11 0)
+			(at 101.6 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18047,7 +18252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97 208.19 0)
+			(at 101.6 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18058,7 +18263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97 208.19 0)
+			(at 101.6 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18069,7 +18274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VM\""
-			(at 97 208.19 0)
+			(at 101.6 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18163,83 +18368,6 @@
 			(project "HSOS_MiniG431"
 				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.31 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "774aec1d-a693-4b45-9215-a0d3f6d84ee2")
-		(property "Reference" "#PWR0134"
-			(at 204.31 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.31 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.31 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.31 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.31 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1c58925-1c62-420c-85eb-b8614f397d81")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -19107,6 +19235,118 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 205.74 229.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83729ea2-1edf-44ee-bc1b-bf05d558ef11")
+		(property "Reference" "C30"
+			(at 208.28 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "u1/50"
+			(at 209.55 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 204.7748 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGE"
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 205.74 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16c188dd-a13b-42bd-8ee5-1a6b08e73f6f")
+		)
+		(pin "2"
+			(uuid "51a3f230-ab99-4a71-8d2b-45975d4a8ab6")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 193.04 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -19828,118 +20068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8efc2305-d04a-461f-a54a-84f43aba96b9")
-		(property "Reference" "C27"
-			(at 157.48 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "u1/35V"
-			(at 156.21 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 155.2448 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6653023f-be5b-406a-a627-08f8f0f600f6")
-		)
-		(pin "2"
-			(uuid "bd6504ee-1e6b-43bd-ab18-8b2e5a2007f7")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 334.01 81.28 90)
 		(unit 1)
@@ -20157,6 +20285,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25879"
+			(at 135 257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21712edd-6491-4921-92c8-4b41f6d3769a")
 		)
@@ -20229,6 +20368,17 @@
 		)
 		(property "Description" ""
 			(at 128.778 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201 "
+			(at 127 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20911,7 +21061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C148198"
+		(property "LCSC" "C176917"
 			(at -12.7 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21277,7 +21427,7 @@
 				)
 			)
 		)
-		(property "Value" "USB STM32"
+		(property "Value" "USB PD"
 			(at 20.32 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22952,96 +23102,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.31 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af33acbf-81b0-4a3e-ae66-a69a41321e5d")
-		(property "Reference" "C55"
-			(at 188.12 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 188.12 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 184.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c245f63f-6904-49d7-acb2-a31df4480c69")
-		)
-		(pin "2"
-			(uuid "c60ddf7e-58f9-4818-8f2e-dd7840c6854f")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 93.98 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -23442,7 +23502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107 215.81 0)
+		(at 101.6 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23452,7 +23512,7 @@
 		(dnp no)
 		(uuid "b4774753-e60a-4413-bcd6-8dcfa6c2e6b1")
 		(property "Reference" "#PWR0121"
-			(at 107 219.62 0)
+			(at 101.6 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23463,7 +23523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107 220.89 0)
+			(at 101.6 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23473,7 +23533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107 215.81 0)
+			(at 101.6 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23484,7 +23544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107 215.81 0)
+			(at 101.6 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23495,7 +23555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107 215.81 0)
+			(at 101.6 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23802,6 +23862,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185 257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25879"
 			(at 185 257 0)
 			(hide yes)
 			(show_name no)
@@ -24128,7 +24199,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "2k2"
 			(at 235.81 258.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24161,6 +24232,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232 257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25879"
 			(at 232 257 0)
 			(hide yes)
 			(show_name no)
@@ -25295,7 +25377,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25879"
+		(property "LCSC" "C25890"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -25793,96 +25875,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.31 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3a09409-4722-4757-89d7-c8936f7077b8")
-		(property "Reference" "C57"
-			(at 208.12 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 208.12 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 204.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 204.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbeef7d8-bb81-402d-ba0c-26913666e13b")
-		)
-		(pin "2"
-			(uuid "165885f8-7744-4c3e-be32-cda2b6113550")
-		)
-		(instances
-			(project "HSOS_MiniG431"
-				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
-					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 117 212 0)
 		(unit 1)
 		(body_style 1)
@@ -26266,7 +26258,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C148198"
+		(property "LCSC" "C176917"
 			(at -15.24 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -26577,7 +26569,7 @@
 	)
 	(symbol
 		(lib_id "power:VM")
-		(at 184.31 208.28 0)
+		(at 187.96 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26587,7 +26579,7 @@
 		(dnp no)
 		(uuid "dca95bf7-803d-4278-83fb-2acac3f7414f")
 		(property "Reference" "#PWR0129"
-			(at 184.31 212.09 0)
+			(at 187.96 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26598,7 +26590,7 @@
 			)
 		)
 		(property "Value" "VM"
-			(at 184.31 203.2 0)
+			(at 187.96 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26608,7 +26600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.31 208.28 0)
+			(at 187.96 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26619,7 +26611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.31 208.28 0)
+			(at 187.96 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26630,7 +26622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VM\""
-			(at 184.31 208.28 0)
+			(at 187.96 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26862,7 +26854,7 @@
 				)
 			)
 		)
-		(property "Value" "USB STM32"
+		(property "Value" "USB Data"
 			(at 20.32 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27717,6 +27709,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 205.74 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e9446337-2e64-4c31-9750-d29be7fd5efc")
+		(property "Reference" "#PWR0176"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50e28e66-7dbf-495c-9a49-1b06e0111062")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 25.4 57.15 90)
 		(unit 1)
 		(body_style 1)
@@ -27872,6 +27941,96 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 101.6 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0d1f5f5-0a55-498d-b498-c5cf2d946165")
+		(property "Reference" "R56"
+			(at 105.41 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 105.41 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 101.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd0d2bcc-c14a-48bd-94ce-ec4b6f252c9b")
+		)
+		(pin "2"
+			(uuid "5f9dd442-7540-4d75-9696-c0525d3160fa")
+		)
+		(instances
+			(project "HSOS_MiniG431"
+				(path "/a02a07f0-a367-4908-9812-1e2e71a9ab5d"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 145 257 0)
 		(unit 1)
 		(body_style 1)
@@ -27924,6 +28083,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 145 257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25879"
 			(at 145 257 0)
 			(hide yes)
 			(show_name no)
@@ -28279,7 +28449,7 @@
 				)
 			)
 		)
-		(property "Value" "12uH"
+		(property "Value" "15uH"
 			(at 207.01 20.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28466,7 +28636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.31 215.9 0)
+		(at 187.96 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28476,7 +28646,7 @@
 		(dnp no)
 		(uuid "ffcfcb94-10b7-47c5-b99c-35c28f8f1aee")
 		(property "Reference" "#PWR0130"
-			(at 184.31 219.71 0)
+			(at 187.96 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28487,7 +28657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.31 220.98 0)
+			(at 187.96 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28497,7 +28667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.31 215.9 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28508,7 +28678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.31 215.9 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28519,7 +28689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.31 215.9 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
